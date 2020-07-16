@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-width: 250px;
+}
+
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+ol li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+ol li:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+ol li:hover {
+    background: #ddd;
+}
+
+.header {
+    background-color: #000;
+    color: #fff;
+    padding: 30px 40px;
+    text-align: center;
+}
+
+input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.btn-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#add {
+    padding: 10px;
+    margin-top: 10px;
+    width: 50%;
+    background: #d9d9d9;
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+#add:hover {
+    background-color: #fff;
+    box-shadow: 5px 5px;
+    transition: 0.3s;
+}
